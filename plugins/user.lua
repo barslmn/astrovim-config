@@ -31,22 +31,5 @@ return {
             -- Configuration here, or leave empty to use defaults
         })
     end
-  },
-
-  -- cmp copilot
-  --
-  {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "InsertEnter",
-    config = function()
-      require("copilot").setup({})
-    end
-  },
-  {
-    "zbirenbaum/copilot-cmp",
-    config = function ()
-      require("copilot_cmp").setup()
-    end
   }
 }
