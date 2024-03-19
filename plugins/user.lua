@@ -13,6 +13,15 @@ return {
     'TimUntersberger/neogit',
     requires = 'nvim-lua/plenary.nvim',
   },
+
+  {
+    'godlygeek/tabular'
+  },
+
+  {
+    'LukeGoodsell/nextflow-vim',
+    ft = "nf"
+  },
   {
     "kylechui/nvim-surround",
     version = "*", -- Use for stability; omit to use `main` branch for the latest features
